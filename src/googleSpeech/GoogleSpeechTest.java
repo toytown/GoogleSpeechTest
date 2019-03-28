@@ -124,6 +124,7 @@ public class GoogleSpeechTest {
 	 */
 	public static void checkMicrophoneAvailability() {
 		enumerateMicrophones().forEach((string , info) -> {
+			
 			System.out.println("Name :" + string);
 		});
 	}
